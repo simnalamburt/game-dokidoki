@@ -9,3 +9,6 @@ Doki Doki Literature Club!
 python -c "import zlib; open('persistent.pickle', 'wb').write(zlib.decompress(open('persistent', 'rb').read()))"
 python3 -m pickletools persistent.pickle | less
 ```
+
+###### Reference
+- https://www.renpy.org/doc/html/persistent.html
